@@ -28,20 +28,15 @@ body{
     min-width:400px;
     background-repeat: no-repeat;
     background-image: url('/left-image.jpg');
-    background-position: center;
-   
-   
+    background-position: center; 
 }
 .side-right{
     background:var(--left-background);
     display:flex;
     justify-content: center;
     align-items: center;
-    
     min-width: 350px;
     padding:0 25px;
-
-  
 }
 .main-wrap{
    padding: 0 40px;
@@ -66,7 +61,6 @@ body{
     color:rgba(83, 83, 83, 0.63);
     font-weight: 400;
 }
-
 .btn-login{
     background-image: linear-gradient(to left bottom, #1c73c4, #1563a2, #175281, #1b4262, #1d3244);
     height: 60px;
